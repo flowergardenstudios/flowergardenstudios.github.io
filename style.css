@@ -1,5 +1,6 @@
 * {
   scrollbar-width: none;
+  transform: scale(1);
 }
 
 .background {
@@ -10,8 +11,9 @@
 }
 
 .logo {
-    margin: 100px;
+    margin: 10px;
     text-align: center;
+    transform: scale(0.7);
 }
 
 .Bar {
@@ -42,21 +44,20 @@
 
 .dividingBorder {
     margin: 1000px;
-    background-color: black;
+    background-color: #FAEBA2;
 }
 
 .studioName {
     margin: 0 auto;
     color: black;
-    font-size: 35px; 
+    font-size: 20px; 
     cursor: default;   
 }
-
 
 .tagline {
     margin: 0 auto;
     color: black;
-    font-size: 100px;
+    font-size: 75px;
     cursor: default;   
 }
 
