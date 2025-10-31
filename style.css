@@ -14,27 +14,34 @@
     text-align: center;
 }
 
+.Bar {
+    margin: 11px;
+    padding: 0px;
+}
 .buttonBar {
+    margin: auto;
+    color: black;
     font-size: 35px;
-    font-family: monospace;
+    font-family: "DM Sans", sans-serif;
     padding: 10px;
     border: 10px;
     border-radius: 1px;
     background-color: #FADEB9;
-    transition: border 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out, padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .buttonBar:hover{
-    cursor: url("assets/cursor/hover.cur"), pointer;
-    border: 100px;
-    border-radius: 10px;
+    margin: auto;
+    border: 10px;
     padding: 20px;
+    cursor: url("assets/cursor/hover.cur"), pointer;
+    border-radius: 10px;
     background-color: #FABE6E;
 }
 
 
 .dividingBorder {
-    margin: 500px;
+    margin: 600px;
     background-color: black;
 }
 
@@ -58,4 +65,59 @@
     color: black;
     font-size: 25px;
     cursor: default;   
+}
+
+.aboutUs {
+    font-size:25px;
+    cursor: default;
+}
+
+.aboutUsSpeaker {
+    text-align: center;
+    font-size:  20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+}
+
+.projects {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: auto;
+    padding-bottom: 0;
+    border-radius: 25px;
+    background-color: #FADEB9;
+    width: 150px;
+    height: 150px;
+    transition: height 1s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.projects:hover {
+    background-color: #FABE6E;
+}
+
+.projectsLogo {
+    size: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.projectsDescription {
+    text-align: left;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+.projectsTitle {
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
 }

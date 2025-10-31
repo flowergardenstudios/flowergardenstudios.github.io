@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
 <!DOCTYPE html>
 <head>
     <title>flowergardenstudios</title>
@@ -6,12 +10,12 @@
     <script src="app.js"></script>
 </head>
 <body class="background">
-    <div>
+    <div class="Bar">
         <!-- Bar -->
-        <a id="buttonBar.aboutUs" class="buttonBar">About Us</a>
-        <a id="buttonBar.projects" class="buttonBar">Projects</a>
-        <a id="buttonBar.links" class="buttonBar">Links</a>
-        <a id="buttonBar.contactUs" class="buttonBar">Contact Us</a>
+        <button type="button" id="buttonBar.aboutUs" class="buttonBar">About Us</button>
+        <button id="buttonBar.projects" class="buttonBar">Projects</button>
+        <button id="buttonBar.links" class="buttonBar">Links</button>
+        <button id="buttonBar.contactUs" class="buttonBar">Contact Us</button>
         <p></p>
     </div>
     <div class="logo">
@@ -31,9 +35,11 @@
     <!-- Diving Border -->
     <div class="dividingBorder"></div>
 
-    <div>
+    <div class="aboutUs">
         <!-- About Us -->
-        <p>We are a small team of creators, funded by content publishing sites like modrinth and donation sites like patreon.</p>
+        <p>We are a small team of creators, funded by content publishing sites like 
+            <span id="contentDownloadSites">Modrinth</span> and donation sites like <span id="donationSites">Patreon</span>.</p>
+        <p class="aboutUsSpeaker"><i> —barden, flowergardenstudios </i></p>
     </div>
 
     <!-- Diving Border -->
@@ -41,9 +47,22 @@
 
     <div>
         <!-- Projects -->
-        <a href="https://modrinth.com/datapack/pale-garden-only!">Pale Garden Only!</a>
-        <a href="https://modrinth.com/datapack/animated-flashlight">Animated Flashlight</a>
+        <h1 class="projectsTitle">OUR PROJECTS</h1>
+        <a href = "https://modrinth.com/datapack/pale-garden-only!">
+            <button class="projects">
+                <img src="assets/projects/palegarden.png" class="projectsLogo">
+            </button>
+        </a>
+        <a href="https://modrinth.com/datapack/animated-flashlight">
+            <button class="projects">
+                <img src="assets/projects/animatedflashlight.png" class="projectsLogo">
+            </button>
+        </a>
     </div>
+    
+    <!-- Diving Border -->
+    <div class="dividingBorder"></div>
+
     <div>
         <!-- Links -->
         <p>Links affiliated with our studio.</p>
@@ -55,6 +74,10 @@
         <a href="https://paypal.me/hmmbarden">PayPal</a>
         <a href="https://www.planetminecraft.com/member/flowergardenstudios/">PlanetMinecraft</a>
     </div>
+
+    <!-- Diving Border -->
+    <div class="dividingBorder"></div>
+    
     <div>
         <!-- Contact Us -->
         <p>Contact us at our email: flowergardenstudios@gmail.com</p>
