@@ -41,7 +41,7 @@
 
 
 .dividingBorder {
-    margin: 600px;
+    margin: 1000px;
     background-color: black;
 }
 
@@ -120,4 +120,22 @@
 .projectsTitle {
     font-size: 30px;
     font-family: "DM Sans", sans-serif;
+}
+
+.linksButton {
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 10px;
+    border-radius: 0;
+    background-color: #FABE6E;
+    transition: border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, padding 0.3s ease-in-out
+}
+
+.linksButton:hover{
+    padding:20px;
+    background-color: #FABE6E;
+    border-radius: 10px;
 }

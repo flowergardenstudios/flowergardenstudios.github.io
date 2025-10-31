@@ -7,15 +7,15 @@
     <title>flowergardenstudios</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+
 </head>
 <body class="background">
     <div class="Bar">
         <!-- Bar -->
-        <button type="button" id="buttonBar.aboutUs" class="buttonBar">About Us</button>
-        <button id="buttonBar.projects" class="buttonBar">Projects</button>
-        <button id="buttonBar.links" class="buttonBar">Links</button>
-        <button id="buttonBar.contactUs" class="buttonBar">Contact Us</button>
+        <button type="button" id="buttonBar.aboutUs" class="buttonBar" onclick="showAboutUs()">About Us</button>
+        <button id="buttonBar.projects" class="buttonBar" onclick="showProjectSection()">Projects</button>
+        <button id="buttonBar.links" class="buttonBar" onclick="showLinkSection()">Links</button>
+        <button id="buttonBar.contactUs" class="buttonBar" onclick="showContactSection()">Contact Us</button>
         <p></p>
     </div>
     <div class="logo">
@@ -37,15 +37,15 @@
 
     <div class="aboutUs">
         <!-- About Us -->
-        <p>We are a small team of creators, funded by content publishing sites like 
-            <span id="contentDownloadSites">Modrinth</span> and donation sites like <span id="donationSites">Patreon</span>.</p>
+        <p id="aboutUs">We are a small team of creators, funded by content publishing sites like 
+            <b><span id="contentDownloadSites">Modrinth</span></b> and donation sites like <b><span id="donationSites">Patreon</span></b>.</p>
         <p class="aboutUsSpeaker"><i> —barden, flowergardenstudios </i></p>
     </div>
 
     <!-- Diving Border -->
     <div class="dividingBorder"></div>
 
-    <div>
+    <div id="projectsSection">
         <!-- Projects -->
         <h1 class="projectsTitle">OUR PROJECTS</h1>
         <a href = "https://modrinth.com/datapack/pale-garden-only!">
@@ -63,27 +63,28 @@
     <!-- Diving Border -->
     <div class="dividingBorder"></div>
 
-    <div>
+    <div id="linksSection">
         <!-- Links -->
         <p>Links affiliated with our studio.</p>
-        <a href="https://modrinth.com/organization/flowergardenstudios">Modrinth</a>
-        <a href="https://github.com/flowergardenstudios">Github</a>
-        <a href="https://github.com/flowergardenstudios-translations">Translations</a>
-        <a href="https://www.patreon.com/c/flowergardenstudios">Patreon</a>
-        <a href="https://ko-fi.com/flowergardenstudios">Ko-Fi</a>
-        <a href="https://paypal.me/hmmbarden">PayPal</a>
-        <a href="https://www.planetminecraft.com/member/flowergardenstudios/">PlanetMinecraft</a>
+        <br>
+        <a class="linksButton" href="https://modrinth.com/organization/flowergardenstudios">Modrinth</a>
+        <a class="linksButton" href="https://github.com/flowergardenstudios">Github</a>
+        <a class="linksButton" href="https://github.com/flowergardenstudios-translations">Translations</a>
+        <a class="linksButton" href="https://www.patreon.com/c/flowergardenstudios">Patreon</a>
+        <a class="linksButton" href="https://ko-fi.com/flowergardenstudios">Ko-Fi</a>
+        <a class="linksButton" href="https://paypal.me/hmmbarden">PayPal</a>
+        <a class="linksButton" href="https://www.planetminecraft.com/member/flowergardenstudios/">PlanetMinecraft</a>
     </div>
 
     <!-- Diving Border -->
     <div class="dividingBorder"></div>
     
-    <div>
+    <div id="contactSection">
         <!-- Contact Us -->
         <p>Contact us at our email: flowergardenstudios@gmail.com</p>
     </div>
 
     <!-- Diving Border -->
     <div class="dividingBorder"></div>
-
+    <script src="app.js"></script>
 </body>
