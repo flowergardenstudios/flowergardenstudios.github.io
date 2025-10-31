@@ -1,3 +1,7 @@
+* {
+  scrollbar-width: none;
+}
+
 .background {
     text-align: center;
     margin:100px;
@@ -6,4 +10,19 @@
 
 .logo {
     text-align: center;
+}
+
+.button {
+    padding: 10px;
+    border: 10px;
+    border-radius: 1px;
+    background-color: #FADEB9;
+    transition: border 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.button:hover{
+    border: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFDAA6;
 }
