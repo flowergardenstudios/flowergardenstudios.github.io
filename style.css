@@ -4,15 +4,19 @@
 
 .background {
     text-align: center;
-    margin:100px;
+    margin:50px;
     background-color: antiquewhite;
+    cursor: url(assets/cursor/normal.cur) 0 0, auto;
 }
 
 .logo {
+    margin: 100px;
     text-align: center;
 }
 
-.button {
+.buttonBar {
+    font-size: 35px;
+    font-family: monospace;
     padding: 10px;
     border: 10px;
     border-radius: 1px;
@@ -20,9 +24,38 @@
     transition: border 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.button:hover{
+.buttonBar:hover{
+    cursor: url("assets/cursor/hover.cur"), pointer;
     border: 100px;
     border-radius: 10px;
     padding: 20px;
-    background-color: #FFDAA6;
+    background-color: #FABE6E;
+}
+
+
+.dividingBorder {
+    margin: 500px;
+    background-color: black;
+}
+
+.studioName {
+    margin: 0 auto;
+    color: black;
+    font-size: 35px; 
+    cursor: default;   
+}
+
+
+.tagline {
+    margin: 0 auto;
+    color: black;
+    font-size: 100px;
+    cursor: default;   
+}
+
+.subtagline {
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    cursor: default;   
 }
