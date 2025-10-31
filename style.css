@@ -1,3 +1,16 @@
+html, p, h1, div {
+    cursor: url('assets/cursor/default.svg'), default; 
+}
+
+
+button {
+    cursor: url('assets/cursor/pointer.svg'), pointer; 
+}
+
+a {
+    cursor: url('assets/cursor/pointer.svg'), pointer; 
+}
+
 * {
   scrollbar-width: none;
   transform: scale(1);
@@ -7,7 +20,7 @@
     text-align: center;
     margin:50px;
     background-color: antiquewhite;
-    cursor: url(assets/cursor/normal.cur) 0 0, auto;
+    cursor: url(assets/cursor/default.svg) 0 0, default;
 }
 
 .logo {
@@ -33,7 +46,6 @@
 }
 
 .buttonBar:hover{
-    cursor: url("assets/cursor/hover.cur"), pointer;
     border-radius: 10px;
     background-color: #FABE6E;
 }
@@ -48,33 +60,28 @@
     margin: 0 auto;
     color: black;
     font-size: 20px; 
-    cursor: default;   
 }
 
 .tagline {
     margin: 0 auto;
     color: black;
-    font-size: 75px;
-    cursor: default;   
+    font-size: 75px;   
 }
 
 .subtagline {
     margin: 10px;
     color: black;
-    font-size: 25px;
-    cursor: default;   
+    font-size: 25px;   
 }
 
 .aboutUs {
     font-size:25px;
-    cursor: default;
 }
 
 .aboutUsSpeaker {
     text-align: center;
     font-size:  20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    cursor: default;
 }
 
 .projects {
