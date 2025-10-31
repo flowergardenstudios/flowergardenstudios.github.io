@@ -7,6 +7,7 @@
     text-align: center;
     margin:50px;
     background-color: antiquewhite;
+    background-image: linear-gradient(to top right, #FFFEFA, #FAEBD7);
     cursor: url(assets/cursor/normal.cur) 0 0, auto;
 }
 
@@ -86,15 +87,16 @@
     padding-right: 20px;
     padding-top: auto;
     padding-bottom: 0;
-    border-radius: 25px;
+    border-radius: 0px;
     background-color: #FADEB9;
     width: 150px;
     height: 150px;
-    transition: height 1s ease-in-out, background-color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out, height 1s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .projects:hover {
     background-color: #FABE6E;
+    border-radius: 25px;
 }
 
 .projectsLogo {
