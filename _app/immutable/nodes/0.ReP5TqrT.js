@@ -1,0 +1,1 @@
+import{b as e,f as t,l as n,m as r,o as i,p as a,s as o,w as s}from"../chunks/D4lhcwCg.js";import"../chunks/DEDqjojZ.js";var c=``+new URL(`../assets/favicon.BmJulqOO.svg`,import.meta.url).href,l=r(`<link rel="icon"/>`);function u(r,u){var d=a();o(`12qhfyh`,n=>{var r=l();e(()=>i(r,`href`,c)),t(n,r)}),n(s(d),()=>u.children),t(r,d)}export{u as component};
