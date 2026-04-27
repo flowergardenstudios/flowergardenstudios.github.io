@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
